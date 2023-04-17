@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="ppe3.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="script.js"></script>
+	<title></title>
+</head>
+<body> 
+<form>
+
+<div class="global">
+<header></header>
+	<div class="top">
+		<div class="topline">
+<img src="https://blog-fr.orson.io/wp-content/uploads/2020/07/logoapple-1024x640.png">
+
+			<div class="top1"> 
+
+	[NOM DE LA COMPAGNIE]<br>	[Adresse postale]<br><br>
+	[Details du contact]
+			</div>
+				<div class="top2">
+				<h3 id="facture">FACTURE</h3>
+				<p class="sub">Date</p>
+				<p class="sub">Nb de facture</p>
+				</div>
+		</div>
+</div>
+
+<div class="info">
+	<p class="infosec">< Conditions de paiement, par exemple: dû dans X jours ></p>
+	<div class="left">
+		<p class="subtitle">Destinataire</p>	
+<ul>
+	<li>[Nom]</li>
+	<li>[Nom de la societe]</li>
+	<li>[Adresse Postale]</li>
+	<li>[Telephone]</li>
+	<li>[Email]</li>
+</ul>
+	</div>
+	<div class="right">
+		<p class="subtitle">Envoyez à</p>
+<ul>
+	<li>[Nom]</li>
+	<li>[Nom de la societe]</li>
+	<li>[Adresse Postale]</li>
+	<li>[Telephone]</li>
+	<li>[Email]</li>
+</ul>
+	</div>
+<div class="table">
+
+	<table cellspacing="00">
+		<tr id="titres">
+			<th id="collapse">DESCRIPTION</th>
+			<th id="collapse">QUANTITE</th>
+			<th id="collapse">PRIX UNITAIRE</th>
+			<th id="collapse">TOTAL</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q1" placeholder="Saisir une quantité" class="bggray" id="q1"></td>
+			<td><input type="text" name="p1" placeholder="Saisir le prix unitaire" class="bggray" id="p1"></td>
+			<td><input type="text" name="t1" placeholder="0,00" class="bggray" id="t1"></td>
+		</tr>		
+		<tr>
+			<td></td>
+			<td><input type="text" name="q2" placeholder="Saisir une quantité" id="q2"></td>
+			<td><input type="text" name="p2" placeholder="Saisir le prix unitaire" id="p2"></td>
+			<td><input type="text" name="t2" placeholder="0,00" id="t2"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q3" placeholder="Saisir une quantité" class="bggray" id="q3"></td>
+			<td><input type="text" name="p3" placeholder="Saisir le prix unitaire" class="bggray" id="p3"></td>
+			<td><input type="text" name="t3" placeholder="0,00" class="bggray" id="t3"></td>
+		</tr>		
+		<tr>
+			<td></td>
+			<td><input type="text" name="q4" placeholder="Saisir une quantité" id="q4"></td>
+			<td><input type="text" name="p4" placeholder="Saisir le prix unitaire"  id="p4"></td>
+			<td><input type="text" name="t4" placeholder="0,00" id="t4"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q5" placeholder="Saisir une quantité" class="bggray" id="q5"></td>
+			<td><input type="text" name="p5" placeholder="Saisir le prix unitaire" class="bggray"  id="p5"></td>
+			<td><input type="text" name="t5" placeholder="0,00"  class="bggray"  id="t5"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q6" placeholder="Saisir une quantité" id="q6"></td>
+			<td><input type="text" name="p6" placeholder="Saisir le prix unitaire" id="p6"></td>
+			<td><input type="text" name="t6" placeholder="0,00" id="t6"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q7" placeholder="Saisir une quantité" class="bggray" id="q7"></td>
+			<td><input type="text" name="p7" placeholder="Saisir le prix unitaire" class="bggray" id="p7"></td>
+			<td><input type="text" name="t7" placeholder="0,00"  class="bggray" id="t7"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q8" placeholder="Saisir une quantité" id="q8"></td>
+			<td><input type="text" name="p8" placeholder="Saisir le prix unitaire" id="p8"></td>
+			<td><input type="text" name="t8" placeholder="0,00"  id="t8"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q9" placeholder="Saisir une quantité" class="bggray" id="q9"></td>
+			<td><input type="text" name="p9" placeholder="Saisir le prix unitaire" class="bggray" id="p9"></td>
+			<td><input type="text" name="t9" placeholder="0,00"  class="bggray"  id="t9"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q10" placeholder="Saisir une quantité" id="q10"></td>
+			<td><input type="text" name="p10" placeholder="Saisir le prix unitaire" id="p10"></td>
+			<td><input type="text" name="t10" placeholder="0,00"  id="t10"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q11" placeholder="Saisir une quantité" class="bggray" id="q11"></td>
+			<td><input type="text" name="p11" placeholder="Saisir le prix unitaire" class="bggray" id="p11"></td>
+			<td><input type="text" name="t11" placeholder="0,00"  class="bggray"  id="t11"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q12" placeholder="Saisir une quantité" id="q12"></td>
+			<td><input type="text" name="p12" placeholder="Saisir le prix unitaire" id="p12"></td>
+			<td><input type="text" name="t12" placeholder="0,00"  id="t12"></td>
+		</tr>	
+		<tr>
+			<td></td>
+			<td><input type="text" name="q13" placeholder="Saisir une quantité" class="bggray" id="q13"></td>
+			<td><input type="text" name="p13" placeholder="Saisir le prix unitaire" class="bggray" id="p13"></td>
+			<td><input type="text" name="t13" placeholder="0,00"  class="bggray"  id="t13"></td>
+		</tr>				
+	</table>
+
+</div>
+<table class="tab">
+	<tr>
+		<td rowspan="8" id="haut">Remarques, notes et instructions de paiement:</th>
+		<td colspan="2">SOUS TOTAL</td>
+		<td><input type="text" name="t11" placeholder="0,00"   id="st"></td>	
+	</tr>
+	<tr>
+		<td colspan="2">REMISE</td>
+		<td><input type="text" name="t11" placeholder="0,00" id="r"></td>
+
+	</tr>
+	<tr>
+		<td colspan="2">SOUS TOTAL MOINS LES REMISES</td>
+		<td><input type="text" name="t11" placeholder="0,00" id="str"></td>
+	</tr>
+	<tr>
+		<td colspan="2">TAUX D'IMPOSITION</td>
+		<td><input type="text" name="t11" placeholder="0,00" id="ti"></td>
+	</tr>
+	<tr>
+		<td colspan="2">TAXE TOTAL</td>
+		<td><input type="text" name="t11" placeholder="0,00" id="tt"></td>
+	</tr>
+	<tr>
+		<td colspan="2">EXPEDITIO MANUTENTION</td>
+		<td><input type="text" name="t11" placeholder="0,00" id="em"></td>
+	</tr>
+	<tr id="paye">
+		<td colspan="2">TOTAL DE</td>
+		<td><input type="text" name="solde" value="0.00" id="solde"></td>
+	</tr>
+	<tr>
+		<td colspan="2"></td>
+		<td><input onclick="calculate()" type="button" value="Calculer"></td>
+	</tr>
+</table>
+<footer>
+	<input type="button" name="code" value="Code" onclick="acces()">
+</footer>
+</div>
+</form>
+</div>
+</body>
+</html>

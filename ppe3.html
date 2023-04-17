@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="ppe3.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<form>	
+
+	<script type="text/javascript">
+var ti = ("")
+	function somme() {
+		var x = parseInt(document.getElementById("p1").value); //Prix ; Quantité ; Résultat	1
+		var y = parseInt(document.getElementById("q1").value);
+			document.getElementById("t1").value=(x*y);
+		var x = parseInt(document.getElementById("p2").value); //Prix ; Quantité ; Résultat	2
+		var y = parseInt(document.getElementById("q2").value);
+			document.getElementById("t2").value=(x*y);
+		var x = parseInt(document.getElementById("p3").value); //Prix ; Quantité ; Résultat	3	
+		var y = parseInt(document.getElementById("q3").value);
+			document.getElementById("t3").value=(x*y);		
+		var x = parseInt(document.getElementById("p4").value); //Prix ; Quantité ; Résultat	4
+		var y = parseInt(document.getElementById("q4").value);
+			document.getElementById("t4").value=(x*y);
+		var x = parseInt(document.getElementById("p5").value); //Prix ; Quantité ; Résultat	5
+		var y = parseInt(document.getElementById("q5").value);
+			document.getElementById("t5").value=(x*y);
+		var x = parseInt(document.getElementById("p6").value); //Prix ; Quantité ; Résultat	6	
+		var y = parseInt(document.getElementById("q6").value);
+			document.getElementById("t6").value=(x*y);		
+		var x = parseInt(document.getElementById("p7").value); //Prix ; Quantité ; Résultat	7
+		var y = parseInt(document.getElementById("q7").value);
+			document.getElementById("t7").value=(x*y);
+		var x = parseInt(document.getElementById("p8").value); //Prix ; Quantité ; Résultat	8
+		var y = parseInt(document.getElementById("q8").value);
+			document.getElementById("t8").value=(x*y);
+		var x = parseInt(document.getElementById("p9").value); //Prix ; Quantité ; Résultat	9	
+		var y = parseInt(document.getElementById("q9").value);
+			document.getElementById("9").value=(x*y);
+		var x = parseInt(document.getElementById("p10").value); //Prix ; Quantité ; Résultat	10
+		var y = parseInt(document.getElementById("q10").value);
+			document.getElementById("t10").value=(x*y);
+		var x = parseInt(document.getElementById("p11").value); //Prix ; Quantité ; Résultat	11
+		var y = parseInt(document.getElementById("q11").value);
+			document.getElementById("t11").value=(x*y);
+		var x = parseInt(document.getElementById("p12").value); //Prix ; Quantité ; Résultat	12	
+		var y = parseInt(document.getElementById("q12").value);
+			document.getElementById("t12").value=(x*y);
+		var x = parseInt(document.getElementById("r13").value); //Prix ; Quantité ; Résultat	13
+		var y = parseInt(document.getElementById("r13").value);
+		var z = parseInt(document.getElementById("r13").value);
+			document.getElementById("t13").value=(x*y);
+
+			document.getElementById("solde").value=(x+y+z);
+}
+	</script>
+
+<div class="global">
+<header></header>
+
+	<div class="top">
+		<div class="topline">
+<img src="https://blog-fr.orson.io/wp-content/uploads/2020/07/logoapple-1024x640.png">
+
+			<div class="top1"> 
+
+	[NOM DE LA COMPAGNIE]<br>	[Adresse postale]<br><br>
+	[Details du contact]
+			</div>
+				<div class="top2">
+				<h3 id="facture">FACTURE</h3>
+				<p class="sub">Date</p>
+				<p class="sub">Nb de facture</p>
+				</div>
+		</div>
+</div>
+</div>
+<div id="stop"></div>
+<div class="info">
+	<p class="infosec">< Conditions de paiement, par exemple: dû dans X jours ></p>
+<div id="stop">
+	<div class="left">
+		<p class="subtitle">Destinataire</p>	
+<ul>
+	<li>[Nom]</li>
+	<li>[Nom de la societe]</li>
+	<li>[Adresse Postale]</li>
+	<li>[Telephone]</li>
+	<li>[Email]</li>
+</ul>
+	</div>
+	<div class="right">
+		<p class="subtitle">Envoyez à</p>
+<ul>
+	<li>[Nom]</li>
+	<li>[Nom de la societe]</li>
+	<li>[Adresse Postale]</li>
+	<li>[Telephone]</li>
+	<li>[Email]</li>
+</ul>
+	</div>
+</div>
+<div class="table">
+
+	<table>
+		<tr id="titres">
+			<th id="collapse">DESCRIPTION</th>
+			<th id="collapse">QUANTITE</th>
+			<th id="collapse">PRIX UNITAIRE</th>
+			<th id="collapse">TOTAL</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q1" placeholder="Saisir une quantité" id="bggray"></td>
+			<td><input type="text" name="p1" placeholder="Saisir le prix unitaire" id="bggray"></td>
+			<td><input type="text" name="t1" placeholder="0,00" id="bggray"></td>
+		</tr>		
+		<tr>
+			<td></td>
+			<td><input type="text" name="q2" placeholder="Saisir une quantité"></td>
+			<td><input type="text" name="p2" placeholder="Saisir le prix unitaire"></td>
+			<td><input type="text" name="t2" placeholder="0,00"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q3" placeholder="Saisir une quantité" id="bggray"></td>
+			<td><input type="text" name="p3" placeholder="Saisir le prix unitaire" id="bggray"></td>
+			<td><input type="text" name="t3" placeholder="0,00"  id="bggray"></td>
+		</tr>		
+		<tr>
+			<td></td>
+			<td><input type="text" name="q4" placeholder="Saisir une quantité"></td>
+			<td><input type="text" name="p4" placeholder="Saisir le prix unitaire"></td>
+			<td><input type="text" name="t4" placeholder="0,00"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q5" placeholder="Saisir une quantité" id="bggray"></td>
+			<td><input type="text" name="p5" placeholder="Saisir le prix unitaire" id="bggray"></td>
+			<td><input type="text" name="t5" placeholder="0,00"  id="bggray"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q6" placeholder="Saisir une quantité"></td>
+			<td><input type="text" name="p6" placeholder="Saisir le prix unitaire"></td>
+			<td><input type="text" name="t6" placeholder="0,00"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q7" placeholder="Saisir une quantité" id="bggray"></td>
+			<td><input type="text" name="p7" placeholder="Saisir le prix unitaire" id="bggray"></td>
+			<td><input type="text" name="t7" placeholder="0,00"  id="bggray"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q8" placeholder="Saisir une quantité"></td>
+			<td><input type="text" name="p8" placeholder="Saisir le prix unitaire"></td>
+			<td><input type="text" name="t8" placeholder="0,00" id="holder"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q9" placeholder="Saisir une quantité" id="bggray"></td>
+			<td><input type="text" name="p9" placeholder="Saisir le prix unitaire" id="bggray"></td>
+			<td><input type="text" name="t9" placeholder="0,00"  id="bggray"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q10" placeholder="Saisir une quantité"></td>
+			<td><input type="text" name="p10" placeholder="Saisir le prix unitaire"></td>
+			<td><input type="text" name="t10" placeholder="0,00"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q11" placeholder="Saisir une quantité" id="bggray"></td>
+			<td><input type="text" name="p11" placeholder="Saisir le prix unitaire" id="bggray"></td>
+			<td><input type="text" name="t11" placeholder="0,00"  id="bggray"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="text" name="q12" placeholder="Saisir une quantité"></td>
+			<td><input type="text" name="p12" placeholder="Saisir le prix unitaire"></td>
+			<td><input type="text" name="t12" placeholder="0,00"></td>
+		</tr>	
+		<tr>
+			<td></td>
+			<td><input type="text" name="q13" placeholder="Saisir une quantité" id="bggray"></td>
+			<td><input type="text" name="p13" placeholder="Saisir le prix unitaire" id="bggray"></td>
+			<td><input type="text" name="t13" placeholder="0,00"  id="bggray"></td>
+		</tr>				
+	</table>
+
+</div>
+<div id="left">
+	Remarques, notes et instructions de paiement:
+</div>
+<div id="right">
+	<label>SOUS-TOTAL</label>
+	<input type="text" name placeholder="0,00" id="holder"><br>
+	<label>REMISE</label>
+	<input type="text" name placeholder="0,00" id="holder"><br>
+	<label>SOUS-TOTAL MOINS LES REMISES</label>
+	<input type="text" name placeholder="0,00" id="holder"><br>
+	<label>TAUX D'IMPOSITION</label>
+	<input type="text" name placeholder="0,00" id="holder"><br>
+	<label>TAXE TOAL</label>
+	<input type="text" name placeholder="0,00" id="holder"><br>
+	<label id="holder1">EXPEDITION, MANUTENTION</label>
+	<input type="text" name placeholder="0,00" id="holder"><br>
+</div>
+<div class="solde">
+	<label for solde id="solde1">SOLDE DU</label>
+	<input type="text" name="total" value="0.00" id="solde"><br>
+	<input type="button" name="calculer" onclick="somme()" value="CALCULE" id="bouton"><br>
+</div>
+<footer></footer>
+</div>
+</form>
+</body>
+</html>

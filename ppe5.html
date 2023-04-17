@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="ppe5.css">
+	<meta charset="utf-8">
+	<title>PPE 5</title>
+
+<script type="text/javascript">
+var result = 0
+function valider(){
+	if (r3.checked == 1 && r5.checked == 1 && r10.checked == 1 && r12.checked ==1){
+		alert("QCM validé")
+	}else{ 
+		alert("Une ou plusieurs mauvaises réponses")
+	}
+}
+
+/*"dynamique"*/
+function correct1() {
+  document.getElementById("q1").innerHTML = "Bonne réponses";
+}
+function incorrect1(){
+ document.getElementById("q1").innerHTML = "Mauvaise réponse";
+}
+function correct2() {
+  document.getElementById("q2").innerHTML = "Bonne réponse";
+}
+function incorrect2(){
+ document.getElementById("q2").innerHTML = "Mauvaise réponse";
+}
+function correct3() {
+  document.getElementById("q3").innerHTML = "Bonne réponses";
+}
+function incorrect3(){
+ document.getElementById("q3").innerHTML = "Mauvaise réponse";
+}
+function correct4() {
+  document.getElementById("q4").innerHTML = "Bonne réponses";
+}
+function incorrect4(){
+ document.getElementById("q4").innerHTML = "Mauvaise réponse";
+}
+function correct5() {
+  document.getElementById("q5").innerHTML = "Bonne réponses";
+}
+function incorrect5(){
+ document.getElementById("q5").innerHTML = "Mauvaise réponse";
+}
+function correct6() {
+  document.getElementById("q6").innerHTML = "Bonne réponses";
+}
+function incorrect6(){
+ document.getElementById("q6").innerHTML = "Mauvaise réponse";
+}
+function correct7() {
+  document.getElementById("q7").innerHTML = "Bonne réponses";
+}
+function incorrect7(){
+ document.getElementById("q7").innerHTML = "Mauvaise réponse";
+}
+function correct8() {
+  document.getElementById("q8").innerHTML = "Bonne réponses";
+}
+function incorrect8(){
+ document.getElementById("q8").innerHTML = "Mauvaise réponse";
+}
+function correct9() {
+  document.getElementById("q9").innerHTML = "Bonne réponses";
+}
+function incorrect9(){
+ document.getElementById("q9").innerHTML = "Mauvaise réponse";
+}
+function correct10() {
+  document.getElementById("q10").innerHTML = "Bonne réponses";
+}
+function incorrect10(){
+ document.getElementById("q10").innerHTML = "Mauvaise réponse";
+}
+</script>
+
+</head>
+<body>
+<header><p class="info">BTS SIO Lycée Parc de Vilgénis</p></header>
+<p class="infosupp"><i>Questionnaire sous forme de QCM. Les questions peuvent comporter une ou plusieus bonnes réponses</i></p>
+<!--Question 1--> 
+<div class="gauche">
+<div class="q1">
+<form>
+<b>Question 1 :</b><br>
+De quelle couleur est la couleur rouge?
+<ul>
+	<li><input type="checkbox" id="r1" name="b1" onclick="incorrect1()">
+         <label for="b1">Bleu</label>
+    </li>
+	<li><input type="checkbox" id="r2" name="b2" onclick="incorrect1()">
+         <label for="b2">Jaune</label>
+    </li>
+	<li><input type="checkbox" id="r3" name="b3" onclick="correct1()">
+        <label for="b3">Rouge</label>
+    </li>
+	<li><input type="checkbox" id="r4" name="b4" onclick="incorrect1()">
+         <label for="b4">Vert</label>
+    </li>
+</ul>
+</div>
+
+<!--Question 2--> 
+<div class="q2">
+<b>Question 2 :</b><br>
+En quelle année sommes-nous ?
+<ul>
+	<li><input type="checkbox" id="r5" name="b5" onclick="correct2()">
+         <label for="b5">2021</label>
+    </li>
+	<li><input type="checkbox" id="r6" name="b6" onclick="incorrect2()" >
+         <label for="b6">2022</label>
+     </li>
+	<li><input type="checkbox" id="r7" name="b7" onclick="incorrect2()">
+         <label for="b7">2023</label>
+     </li>
+	<li><input type="checkbox" id="r8" name="b8" onclick="incorrect2()">
+         <label for="b8">2024</label>
+     </li>
+</ul>
+</div>
+
+<!--Question 3--> 
+<div class="q3">
+<b>Question 3 :</b><br>
+Quelle est la capitale de la France
+<ul>
+	<li><input type="checkbox" id="r9" name="b9" onclick="incorrect3()">
+         <label for="b9">Toulouse</label>
+    </li>
+	<li><input type="checkbox" id="r10" name="b10" onclick="correct3()">
+         <label for="b10">Paris</label>
+     </li>
+	<li><input type="checkbox" id="r11" name="b11" onclick="incorrect3()">
+         <label for="b11">Rennes</label>
+     </li>
+	<li><input type="checkbox" id="r12" name="b12" onclick="correct3()">
+         <label for="b12">Paris</label>
+     </li>
+</ul>
+</div>
+<div class="q4">
+<b>Question 4 :</b><br>
+Quelle est la capitale de la Chine
+<ul>
+	<li><input type="checkbox" id="r9" name="b9" onclick="correct4()">
+         <label for="b9">Pékin</label>
+    </li>
+	<li><input type="checkbox" id="r10" name="b10" onclick="incorrect4()">
+         <label for="b10">Shanghai</label>
+     </li>
+	<li><input type="checkbox" id="r11" name="b11" onclick="incorrect4()">
+         <label for="b11">Wuhan</label>
+     </li>
+	<li><input type="checkbox" id="r12" name="b12" onclick="incorrect4()">
+         <label for="b12">Shenzhen</label>
+     </li>
+</ul>
+</div>
+<div class="q5">
+<b>Question 5 :</b><br>
+Quelle est la capitale de l'Autriche
+<ul>
+	<li><input type="checkbox" id="r9" name="b9" onclick="incorrect5()">
+         <label for="b9">Linz</label>
+    </li>
+	<li><input type="checkbox" id="r10" name="b10" onclick="incorrect5()">
+         <label for="b10">Hallstatt</label>
+     </li>
+	<li><input type="checkbox" id="r11" name="b11" onclick="correct5()">
+         <label for="b11">Vienne</label>
+     </li>
+	<li><input type="checkbox" id="r12" name="b12" onclick="incorrect5()">
+         <label for="b12">Graz</label>
+     </li>
+</ul>
+</div>
+<div class="q6">
+<b>Question 6 :</b><br>
+Quelle est la capitale de l'Afrique du Sud
+<ul>
+	<li><input type="checkbox" id="r9" name="b9" onclick="incorrect6()">
+         <label for="b9">Ethekwini</label>
+    </li>
+	<li><input type="checkbox" id="r10" name="b10" onclick="incorrect6()">
+         <label for="b10">Paris</label>
+     </li>
+	<li><input type="checkbox" id="r11" name="b11" onclick="incorrect6()">
+         <label for="b11">Johannesburg</label>
+     </li>
+	<li><input type="checkbox" id="r12" name="b12" onclick="correct6()">
+         <label for="b12">Pretoria</label>
+     </li>
+</ul>
+</div>
+<div class="q7">
+<b>Question 7 :</b><br>
+Quelle est la capitale de la Russie
+<ul>
+	<li><input type="checkbox" id="r9" name="b9" onclick="incorrect7()">
+         <label for="b9">Toulouse</label>
+    </li>
+	<li><input type="checkbox" id="r10" name="b10" onclick="correct7()">
+         <label for="b10">Moscou</label>
+     </li>
+	<li><input type="checkbox" id="r11" name="b11" onclick="incorrect7()">
+         <label for="b11">Saint-Pétersbourg</label>
+     </li>
+	<li><input type="checkbox" id="r12" name="b12" onclick="incorrect7()">
+         <label for="b12">Kazan</label>
+     </li>
+</ul>
+</div>
+<div class="q8">
+<b>Question 8 :</b><br>
+Quelle est la capitale de l'Afghanistan
+<ul>
+	<li><input type="checkbox" id="r9" name="b9" onclick="incorrect8()">
+         <label for="b9">Toulouse</label>
+    </li>
+	<li><input type="checkbox" id="r10" name="b10" onclick="incorrect8()">
+         <label for="b10">Paris</label>
+     </li>
+	<li><input type="checkbox" id="r11" name="b11" onclick="correct8()()">
+         <label for="b11">Kaboul</label>
+     </li>
+	<li><input type="checkbox" id="r12" name="b12" onclick="incorrect8()">
+         <label for="b12">Tirana</label>
+     </li>
+</ul>
+</div>
+<div class="q9">
+<b>Question 9 :</b><br>
+Quelle est la capitale de l'Allemagne
+<ul>
+	<li><input type="checkbox" id="r9" name="b9" onclick="incorrect9()">
+         <label for="b9">Toulouse</label>
+    </li>
+	<li><input type="checkbox" id="r10" name="b10" onclick="correct9()">
+         <label for="b10">Paris</label>
+     </li>
+	<li><input type="checkbox" id="r11" name="b11" onclick="incorrect9()">
+         <label for="b11">Rennes</label>
+     </li>
+	<li><input type="checkbox" id="r12" name="b12" onclick="correct9()">
+         <label for="b12">Berlin</label>
+     </li>
+</ul>
+</div>
+<div class="q10">
+<b>Question 10 :</b><br>
+Quelle est la capitale du Bangladesh
+<ul>
+	<li><input type="checkbox" id="r9" name="b9" onclick="correct10()">
+         <label for="b9">Dacca</label>
+    </li>
+	<li><input type="checkbox" id="r10" name="b10" onclick="incorrect10()">
+         <label for="b10">Manama</label>
+     </li>
+	<li><input type="checkbox" id="r11" name="b11" onclick="incorrect10()">
+         <label for="b11">Rennes</label>
+     </li>
+	<li><input type="checkbox" id="r12" name="b12" onclick="incorrect10()">
+         <label for="b12">Bridgetown</label>
+     </li>
+</ul>
+</div>
+</form>
+</div>
+</div>
+<div class="dynamic">
+	<ul>
+		<li><p id="q1">Réponse de la question 1</p></li>
+
+		<li><p id="q2">Réponse de la question 2</p></li>
+
+		<li><p id="q3">Réponse de la question 3</p></li>
+
+		<li><p id="q4">Réponse de la question 4</p></li>
+
+		<li><p id="q5">Réponse de la question 5</p></li>
+
+		<li><p id="q6">Réponse de la question 6</p></li>
+
+		<li><p id="q7">Réponse de la question 7</p></li>
+
+		<li><p id="q8">Réponse de la question 8</p></li>
+
+		<li><p id="q9">Réponse de la question 9</p></li>
+
+		<li><p id="q10">Réponse de la question 10</p></li>		
+	</ul>
+</div>
+<div class="stop">
+<input type="button" id="corriger" value="Valider" onclick="valider()"></form>
+<form><button>Réinitialiser</button></form>
+<form  method="get" action="correction.html">
+<button>Corrigé</button>
+</div>
+</form>
+</body>
+</html>

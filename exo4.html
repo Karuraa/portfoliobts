@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		table{
+			border: 1.5px solid black;
+			width: 60%;
+			margin: auto;
+		}
+		td{
+			border: 1px solid black;
+		}
+		input{
+			width: 98%;
+		}
+		h1{
+			text-align: center;
+			font-size: 40px;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+
+	function somme() {
+		var x = parseInt(document.getElementById("p1").value); //Prix ; Quantité ; Résultat	1
+		var y = parseInt(document.getElementById("q1").value);
+			document.getElementById("r1").value=(x*y);
+		var x = parseInt(document.getElementById("p2").value); //Prix ; Quantité ; Résultat	2
+		var y = parseInt(document.getElementById("q2").value);
+			document.getElementById("r2").value=(x*y);
+		var x = parseInt(document.getElementById("p3").value); //Prix ; Quantité ; Résultat	3	
+		var y = parseInt(document.getElementById("q3").value);
+			document.getElementById("r3").value=(x*y);
+		var x = parseInt(document.getElementById("r1").value); //Résulat Total	
+		var y = parseInt(document.getElementById("r2").value);
+		var z = parseInt(document.getElementById("r3").value);
+			document.getElementById("total").value=(x+y+z);
+}
+	</script>
+	<form>
+	<h1>Facture en JavaScript</h1>
+<table>
+<tr>
+	<td>Article:</td>
+	<td>Prix</td>
+	<td>Quantité</td>
+	<td>Résultat</td>
+</tr>
+<tr>
+	<td><input type="" name="" placeholder="saisir la désignation"></td>
+	<td><input type="text" name="p1" placeholder="0" id="p1"></td>
+	<td><input type="text" name="q1" placeholder="0" id="q1"></td>
+	<td><input type="text" name="r1" placeholder="0" id="r1"></td>
+</tr>
+<tr>
+	<td><input type="text" name="" placeholder="saisir la désignation"></td>
+	<td><input type="text" name="p2" placeholder="0" id="p2"></td>
+	<td><input type="text" name="q2" placeholder="0" id="q2"></td>
+	<td><input type="text" name="r2" placeholder="0" id="r2"></td>
+</tr>
+<tr>
+	<td><input type="text" name="" placeholder="saisir la désignation"></td>
+	<td><input type="text" name="p3" placeholder="0" id="p3"></td>
+	<td><input type="text" name="q3" placeholder="0" id="q3"></td>
+	<td><input type="text" name="r3" placeholder="0" id="r3"></td>
+</tr>
+<tr>
+	<td>  </td>
+	<td><input type="reset" value="Réinitialiser" id="reset"> </td>
+	<td><input type="button" name="calculer" onclick="somme()" value="Calculer"></td>
+	<td><input type="text" name="total" value="0" id="total"></td>
+</tr>
+
+</table>
+
+</form>
+</body>
+</html>

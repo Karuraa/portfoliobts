@@ -1,0 +1,149 @@
+.global{
+	border: 1.2px solid black;
+}
+footer{
+	height: 30px;
+	background-color: orangered;
+	border: 1px solid black;
+	text-align: center;
+	clear: both;
+}
+header{
+	height: 30px;
+	background-color: orangered;
+	border: 1px solid black;
+	text-align: center;
+
+}
+.top{
+	height: auto;
+	width: auto;
+	background-color: lightgray;
+}
+.left{
+	float: left;
+	width: 40%;
+}
+.right{
+	float: right;
+	width: 55%;
+}
+
+.subtitle{
+	font-weight: bolder;
+	color: blue;
+	border-bottom: 1px solid black;
+	padding-left: 40px;
+}
+.infosec{
+	justify-content: right;
+	text-align: right;
+	font-style: italic;
+}
+li{
+	list-style: none;
+}
+.table{
+	margin-top: 10%;
+	border: 1px solid black;
+	width: 100%;
+}
+td, tr{
+	border: 1px solid black;
+	width: 100%;
+}
+tr:nth-child(2n+0){
+	background-color: lightgray;
+}
+input{
+	background-color: whitesmoke;
+	text-align: right;
+
+}
+#collapse{
+	border-collapse: collapse;
+	text-align: center;
+	background-color: orangered;
+}
+.t2{
+	border: 1px solid black;
+	margin-top: 5%;
+}
+#left{
+	float: left;
+}
+#right{
+	text-align: right;
+	float: right;
+}
+#solde{
+	height: 40px;
+	background-color: mistyrose;
+	border-bottom: 1px solid;
+
+}
+#solde1{
+	font-size: 25px;
+}
+img{
+	padding-top: 20px;
+	height: 110px;
+}
+.topline{
+	display: flex;
+	align-items: stretch;
+}
+.top1{
+	padding-top: 2.6%;
+}
+.top2{
+	position: relative;
+	right: -67.7%;
+	justify-content: right;
+	width: 140px;
+}
+h3{
+	color: dimgray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 30px;
+	padding-right: 30px;
+
+}
+.sub{
+	text-align: center;
+	font-weight: bolder;
+	color: blue;
+	border-bottom: 1px solid black;
+
+	padding-bottom: 10px;
+}
+#bouton{
+	width: 10.48%;
+	height: 50px;
+	background-color: mistyrose;
+	text-align: center;
+	border: 1px solid black;
+}
+.bggray{
+	background-color: lightgray;
+}
+#holder1{
+	padding-bottom: 1.1px;
+	border-bottom: 1px solid;
+}
+#haut{
+	padding-bottom: 10%;
+	padding-left: 7wpx;
+}
+#paye{
+	border-top: 3px solid black;
+}
+.tab{
+	border: 0px solid black;
+	border-collapse: collapse;
+}
+td, tr, th{
+	border: 0px solid black;
+}

@@ -1,0 +1,40 @@
+header{
+	border-bottom: 1px solid black;
+}
+.info{
+	text-align: right;
+	margin-right: 10%;
+	font-size: 20px;
+	color: darkred;
+	font-weight: bold;
+}
+.infosupp{
+	color: green;
+	font-size: 16px;
+}
+.q1 .q2 .q3{
+	margin-bottom: 5%;
+}
+form{
+	display: inline;
+
+}
+span{
+	color: green;
+}
+ul{
+	font-style: italic;
+}
+.dynamic{
+	margin-top: 3%;
+	float: right;
+	display: flex;
+	right: 5%;
+	position: fixed;
+}
+.gauche{
+	float: left;
+}
+.stop{
+	clear: both;
+}

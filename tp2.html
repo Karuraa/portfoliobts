@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href=".css">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	
+	var note1 = prompt("donner une première notes");	
+	var note2 = prompt("donner une deuxième notes");	
+	var note3 = prompt("donner une troisième notes");	
+
+	var somme = note1*2 + note2*2 + note3*3;
+	var moyenne = somme/7;
+	if (moyenne >= 10)
+		{document.write("Admis")
+		document.bgColor="green"}
+	else if (moyenne>=8)
+		{document.write("rattrapage")
+		document.bgColor="orange"}
+	else
+		{document.write("redoublant")
+		document.bgColor="red"}
+
+	document.write("<table border=2> <tr>");
+	document.write("<td> <h1> voilà votre somme :"+somme)+"</td> <br>";
+	document.write("<td> <h1> voilà votre moyenne :"+moyenne)+"</td>";
+	document.write("</tr> </table>");
+
+</script>
+</body>
+</html>

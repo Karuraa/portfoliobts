@@ -1,0 +1,103 @@
+.middle{
+	height: auto;
+    background: linear-gradient(to bottom right, #ffcc66 2%, #ff99cc 118%);
+}
+.inmiddle{
+	font-family: monospace;
+	font-size: 45px;
+	text-align: center;
+	padding-top: 10%;
+	margin: auto;
+	width: 70%;
+}
+.project-container {
+	border: 1px solid #915565;
+	margin-bottom: 20px;
+	padding: 10px;
+	text-align: left;
+	max-width: 500px;
+	margin: 0 auto; /* pour centrer horizontalement */
+	font-family: monospace;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.project-container h2 {
+	margin-top: 0;
+}
+
+.project-container p {
+	margin-bottom: 10px;
+}
+
+.project-container a {
+  text-decoration: none;
+}
+.espace{
+	margin: 2%;
+}
+.presentation{
+	font-size: 17px;
+}
+.presentation a{
+	text-decoration: none;
+}
+.gras{
+	font-weight: bold;
+	font-size: 20px;
+ }
+ #presentation {
+  padding-top: 100px; /* ou la hauteur de votre barre de navigation */
+}
+.table-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+
+}
+.table-wrapper th {
+
+	font-size: 23px;
+}
+ #projet {
+  padding-top: 50px; /* ou la hauteur de votre barre de navigation */
+}
+.gros{
+	font-size: 21px;
+}
+.container{
+	border: 1px solid #915565;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+.projet-text{
+	margin: auto;
+
+	width: 60%;
+	font-size: 15px;
+	  text-align: left;
+}
+img{
+	width: 100%;
+}
+.bottomspace{
+	margin-top: 10%;
+}
+.containers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.nostyle{
+	text-decoration: none;
+	color: ;
+}
+.test{
+	text-align: left;
+}

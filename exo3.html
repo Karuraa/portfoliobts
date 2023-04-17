@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		table{
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+	function somme() {
+		var x = parseInt(document.getElementById("first").value); //getElementById récup donnée de l'id concernée	
+		var y = parseInt(document.getElementById("second").value);
+			document.getElementById("answer").value=(x+y);
+}
+	</script>
+
+<form name="f1">
+	<!--<label for [nom] </label>-->
+	<label for first>First</label> 
+	<input type="text" name="first" id="first"><br>
+
+	<label for second>Second</label>
+	<input type="text" name="second" id="second"><br>
+
+	<label for answer>Answer</label>
+	<input type="text" name="answer" id="answer"><br>
+	<input type="button" onclick="somme()" value="Addition">
+
+</form>
+</body>
+</html>
